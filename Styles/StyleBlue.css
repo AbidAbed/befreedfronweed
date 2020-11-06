@@ -1,0 +1,117 @@
+h1,
+h2,
+h4,
+h5,
+h6,
+form {
+    color: rgb(17, 101, 180);
+}
+
+section,
+p,
+h3,
+ul,
+ol,
+label {
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    border: 0px;
+    color: rgb(17, 101, 180);
+    background-color: rgb(17, 101, 180);
+    height: 3px;   
+}
+
+@keyframes zoom {
+    to {
+        font-size: 125%;
+    }
+    from {
+        font-size: 100%;
+    }
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+	background-image: url("../images/blue/Wallpaper.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page {
+    padding: 0% 5%;
+    margin: 0px 15%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.466);
+    background-image: none;
+}
+
+#banner {
+    /*background-image: url("../images/Banner.jpg");*/
+    background-repeat: no-repeat;
+    border-style: outset;
+    border-color:rgb(17, 101, 180); 
+	background-color: rgba(0, 0, 0, 0.562);
+    background-position: center;
+    background-size: cover;
+    margin: -10px;
+    /*position: fixed;*/
+}
+
+/*What is this for?*/
+.border {
+    border-style: outset;
+    border-color: rgb(223, 11, 11)
+}
+
+.links:link {
+    text-decoration: none;
+    color: rgb(17, 101, 180);
+    border-color: rgb(17, 101, 180);
+    font-family: 'Cairo', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links:visited {
+    color: rgb(17, 101, 180);
+}
+
+/*@keyframes twitch{
+	0%{transform: rotate(0)}
+	50%{transform: rotate(10)}
+	100%{transform: rotate(-10)}
+}*/
+
+.links:hover {
+    color: white;
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.links:active {
+    color: rgb(17, 101, 180);
+}
+
+#badge {
+    position: relative;
+    left: 50%;
+}
+
+.image {
+    float: right;
+    width: 350px;
+}
+
+/*.image:hover{
+	display: inline-block;
+	animation: twitch;
+	animation-direction: forwards;
+	animation-duration: 1s;
+}*/
+
